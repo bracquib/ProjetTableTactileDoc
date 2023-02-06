@@ -1,0 +1,45 @@
+# Projet table tactile : Journal de bord
+
+## 16/01/2023
+* Organisation du groupe
+* Rédaction du cahier des charges
+* Récupération du projet SeriousGame
+* Récupération des équipemetns(3 tables )
+    * démonter et réparer les connectiques, les tables en général.
+    * constatation de la dégradation d'une partie d'une dernière table.
+* Création d'un trello pour le projet
+* Création Journal de bord
+
+## 23/01/2023
+
+Noah BOMPARD : 
+- Mails a la responsable, du fablab, relance du fablab
+- mail au contact informatique du crous 
+- Inventaire des fichiers présents sur les tables tactiles 
+- test tacticité de la table tactile avec vincent 
+- début de la réinstallation linux, avec prise en charge tactile : https://codimd.math.cnrs.fr/YgER1zQEQiGpUR5LmfjqrA?both
+- démontage et analyse du prblème de pile CMOS, mail de commande de la pile.
+- j'ai commencé a apprendre a utiliser node.js en vue de l'application client/restaurant
+- démontage des boitiers de commande pour les mettre a jour et les réparer a la maison (batterie CMOS à changer)
+- tests avec ubuntu touch
+
+Fikret KÜRKLÜ: 
+
+- Recherche de données pour l'intégration d'informations liés à ADE, pour cela on va faire une exportation des données sous format ics pour ensuite les traités en javascript. Recherche de librairies pour traiter les données, je vais réaliser quelques essais avec ical.js, une librairie de chez Mozilla.Je vais lire la documentation. 
+
+- Pour intégrer les menu du jours au sein du site web, deux choix s'offre à nous, faire du scrapping de la page des restaurants de chaque resto crous et réaliser un affichage sur notre appli, ce qui permettra facilement aux utilisateurs d'accéder au menu, ou bien contacter des membres du crous pour voir comment on pourrait accéder aux données plus facilement. Je pense réaliser un petit script python sous format de serveur web, qui réalisera de la récolte de données depuis lien fournis.
+
+- J'ai également commencer à regarder quelques tutoriels three.js pour essayer une implémentation dans  la présentation de polytech que nous souhaitons réaliser.
+
+Vincent Ducros:
+
+- Création d'une extension gnome utilisant du javascript pour lancer un script bash avec une commande xrandr pour faire une rotation de l'écran.
+
+- Vérification des capacités multipoints des tables : visiblement absentes. J'ai cherché sur Internet mais pas trouvé beaucoup d'informations même si visiblement c'était pas très bien supporté sur les versions un peu plus anciennes d'ubuntu installé actuellement.
+
+- Aide à démonter et vérifier l'état des installs avec Noah
+
+Benjamin Bracquier:
+- vérification de l'existence du serveur local(il n'y en a pas)
+- recherche d'information sur le changement en mode kiosk et si il faut changer de naviguateur internet
+- -recherche d'information de la construction et structure de notre page d'acceuil
