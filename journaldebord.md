@@ -43,3 +43,9 @@ Benjamin Bracquier:
 - vérification de l'existence du serveur local(il n'y en a pas)
 - recherche d'information sur le changement en mode kiosk et si il faut changer de naviguateur internet
 - -recherche d'information de la construction et structure de notre page d'acceuil
+
+## 29/01/2023
+Benjamin Bracquier
+-continue l'implémentation de la page d'acceuil avec ajout du carouselle
+-déjà implémenter dans la page d'acceuil:météo,horloge(date),flux rss (le monde),lien vers le site de polytech
+-recherche de jeu à porter pour qu'on y accède à partir de la page d'acceuil
