@@ -45,12 +45,12 @@ Benjamin Bracquier:
 - -recherche d'information de la construction et structure de notre page d'acceuil
 
 ## 29/01/2023
-Benjamin Bracquier
--continue l'implémentation de la page d'acceuil avec ajout du carouselle
--déjà implémenter dans la page d'acceuil:météo,horloge(date),flux rss (le monde),lien vers le site de polytech
--recherche de jeu à porter pour qu'on y accède à partir de la page d'acceuil
+Benjamin Bracquier:
+- continue l'implémentation de la page d'acceuil avec ajout du carouselle
+- déjà implémenter dans la page d'acceuil:météo,horloge(date),flux rss (le monde),lien vers le site de polytech
+- recherche de jeu à porter pour qu'on y accède à partir de la page d'acceuil
 
-Fikret KÜRKLÜ
--Mise en place du projet web en générant un projet sous next js accompagné de tailwind
--Mise en place d'un calendrier ade avec FullCalendar
--Cherche une solution de convertir les documents json récupérer depuis le fichier ics d'ade sous un format spécifique.
+Fikret KÜRKLÜ:
+- Mise en place du projet web en générant un projet sous next js accompagné de tailwind
+- Mise en place d'un calendrier ade avec FullCalendar
+- Cherche une solution de convertir les documents json récupérer depuis le fichier ics d'ade sous un format spécifique.
