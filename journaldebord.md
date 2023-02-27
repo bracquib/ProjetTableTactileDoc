@@ -85,6 +85,7 @@ Vincent Ducros:
 - Calibration de l'écran via xinput_calibrator
 
 Fikret Kürklü:
+- Récupération des données depuis ADE et conversion en json grâce à l'outil ical2json récupérer depuis NPM
 - Début de la page EDT pour l'affichage des données récolté depuis ADE 
 
 ## 27/02/2023
