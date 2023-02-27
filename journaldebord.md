@@ -75,6 +75,10 @@ Noah BOMPARD :
 - mise en place du script pour lancer le mode kiosk au startup avec gnome startup application
 - fin des mise a niveau des ordis, ubuntu, multitouch, tactiles, et clic droit si appui long.
 
+Benjamin Bracquier :
+- importation de jeu pour mettre sur la page d'acceuil
+- ajout de boutton pour revenir à la page d'acceuil à partir de la page de jeu
+
 ## 20/02/2023
 
 Vincent Ducros:
@@ -88,7 +92,16 @@ Fikret Kürklü:
 - Récupération des données depuis ADE et conversion en json grâce à l'outil ical2json récupérer depuis NPM
 - Début de la page EDT pour l'affichage des données récolté depuis ADE 
 
+Benjamin Bracquier
+- test des jeux pour voir si ils marchent sur table tactile et les retirer sinon
+- Mise en place de la page d'acceuil et du serveur apache avec Vincent
+
 ## 27/02/2023
 
 Fikret KÜRKLÜ:
 - Finalisation de la page ADE, et affichage des emplois du temps de trois formations : INFO, IESE, TIS
+
+Benjamin Bracquier :
+- ajout de pare-feu sur la table pour voir si cela résout l'erreur du flux rss et de la météo
+- changement de code pour la météo pour qu'elle marche sans erreur de requête
+- recherche d'alternative pour le flux rss
