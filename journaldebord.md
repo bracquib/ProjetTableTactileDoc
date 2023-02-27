@@ -83,3 +83,11 @@ Vincent Ducros:
     + Importation et test du script de rotation sur la table : problème = on a bien la rotation de l'écran mais pas du digitizer
     + Remontage de la table et vérification de son bon fonctionnement
 - Calibration de l'écran via xinput_calibrator
+
+Fikret Kürklü:
+- Début de la page EDT pour l'affichage des données récolté depuis ADE 
+
+## 27/02/2023
+
+Fikret KÜRKLÜ:
+- Finalisation de la page ADE, et affichage des emplois du temps de trois formations : INFO, IESE, TIS
