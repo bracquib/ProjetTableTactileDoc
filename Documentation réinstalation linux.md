@@ -9,7 +9,7 @@ lors de l'inventaire et de la prise en main des tables tactiles :
     - de drags
     - de multi-touch 
 
-- une des deux tables utilisées a besoin de changement de pile cm, cmos batterie a plat
+- une des deux tables utilisées a besoin de changement de pile cm, cmos batterie a plat https://www.amazon.com/Eunicell-CR2032-Lithium-Blister-Batteries/dp/B00PNW4HSG
 
 ## Démarche de réinstallation 
  
