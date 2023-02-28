@@ -96,6 +96,12 @@ Benjamin Bracquier
 - test des jeux pour voir si ils marchent sur table tactile et les retirer sinon
 - Mise en place de la page d'acceuil et du serveur apache avec Vincent
 
+Noah BOMPARD:
+- Mise en place de xinputcallibrator
+- Installation lightdm
+- Installation driver linux egalax
+- Tests sur la tacticité de l'écran+ multitouch
+
 ## 27/02/2023
 
 Fikret KÜRKLÜ:
@@ -105,3 +111,6 @@ Benjamin Bracquier :
 - ajout de pare-feu sur la table pour voir si cela résout l'erreur du flux rss et de la météo
 - changement de code pour la météo pour qu'elle marche sans erreur de requête
 - recherche d'alternative pour le flux rss
+
+Noah BOMPARD :
+- Rédaction totale de la documentation associée aux installations, réparation apache sur machine + jpo
