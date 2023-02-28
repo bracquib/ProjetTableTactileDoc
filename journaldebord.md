@@ -4,7 +4,7 @@
 * Organisation du groupe
 * Rédaction du cahier des charges
 * Récupération du projet SeriousGame
-* Récupération des équipemetns(3 tables )
+* Récupération des équipements (3 tables )
     * démonter et réparer les connectiques, les tables en général.
     * constatation de la dégradation d'une partie d'une dernière table.
 * Création d'un trello pour le projet
@@ -114,3 +114,8 @@ Benjamin Bracquier :
 
 Noah BOMPARD :
 - Rédaction totale de la documentation associée aux installations, réparation apache sur machine + jpo
+
+Vincent Ducros:
+- Recherche et mise à jour du script pour prendre en charge également la rotation du digitizer pour pouvoir interagir avec la table lorsque son orientation à été modifiée
+- Présentation du projet à la JPO
+- Création de la présentation du 28/02
