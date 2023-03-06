@@ -119,3 +119,9 @@ Vincent Ducros:
 - Recherche et mise à jour du script pour prendre en charge également la rotation du digitizer pour pouvoir interagir avec la table lorsque son orientation à été modifiée
 - Présentation du projet à la JPO
 - Création de la présentation du 28/02
+
+## 06/03/2023
+
+Vincent Ducros:
+- Test sur l'ouverture d'application locale depuis le navigateur sur ma machine (ouverture des jeux inclus sous Ubuntu)
+- Première version de la documentation sur le thème précédemment cité.
