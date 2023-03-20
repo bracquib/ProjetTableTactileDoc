@@ -125,3 +125,14 @@ Vincent Ducros:
 Vincent Ducros:
 - Test sur l'ouverture d'application locale depuis le navigateur sur ma machine (ouverture des jeux inclus sous Ubuntu)
 - Première version de la documentation sur le thème précédemment cité.
+
+Benjamin Bracquier :
+- Recherche de jeux pour rajouter sur la page d'acceuil 
+
+# 13/03/2023 
+
+Benjamin Bracquier :
+- Recherche de jeux depuis ubuntu software 
+- recherche pour mettre des executables sur le page web
+
+
