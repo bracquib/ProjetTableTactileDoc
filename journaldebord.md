@@ -129,10 +129,28 @@ Vincent Ducros:
 Benjamin Bracquier :
 - Recherche de jeux pour rajouter sur la page d'acceuil 
 
+Noah BOMPARD :
+- développement mini prototype 3d éxecutable a lancer sur le site web 
+- recherche et documentation sur les méthodes d'intégrations d'objets 3d en web en fonciton de leur format.
+
 # 13/03/2023 
+Noah BOMPARD :
+ - exportation de l'exécutable => marche sur windows mais pas en version linux (pb de méméoire vulcan)
+ - recherche développement phaser pour des jeux webs, tree.js pour l'intégration d'un objet 3D
+ - recherche de doc sur les différentes solutions d'intégration 3d disponibles.
+
+Vincent DUCROS :
+- aide a déboguage vulkan + exportation windows-> linux
+
 
 Benjamin Bracquier :
 - Recherche de jeux depuis ubuntu software 
 - recherche pour mettre des executables sur le page web
 
-
+# 20/03/2023
+Noah BOMPARD :
+- tentative de réparation (encore) du multitouch (fonctionne uniquement via l'app de test du driver)
+- déboguage de la tablette 
+- tests d'applications importables sur site via l'app store linux ( dessin, sudoku, majhong, visionneuse photo, etc..)
+- déboguage vulkan (et suremenent recherche d'une autre solution)
+- début de tests sur phaser en vue de la visionneuse photo
