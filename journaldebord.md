@@ -154,3 +154,10 @@ Noah BOMPARD :
 - tests d'applications importables sur site via l'app store linux ( dessin, sudoku, majhong, visionneuse photo, etc..)
 - déboguage vulkan (et suremenent recherche d'une autre solution)
 - début de tests sur phaser en vue de la visionneuse photo
+
+Benjamin Bracquier :
+-importation de jeux et d'application de ubuntu sur le site
+-lien de la page d'acceuil vers le site du calendrier
+-tests d'applications
+
+
