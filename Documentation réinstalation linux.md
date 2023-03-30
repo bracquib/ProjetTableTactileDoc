@@ -154,3 +154,12 @@ Lancez une application qui prend en charge le multitouch, comme un navigateur we
 Effectuez les gestes multitouch que vous avez configurés dans TouchGG pour vérifier que le multitouch fonctionne correctement.
 Voilà, vous devriez maintenant avoir réussi à activer le multitouch sur votre écran tactile Egalax sous Ubuntu 22.04 en utilisant TouchGG et Touché
 (dans notre cas, fonctionne puisque certaines commandes marchent, mais le type d'installation de base faite par l'entreprise avant nous, ne semble permettre d'identifier le **premier clic** comme un clic de souris, comme un pavé tactile d'ordinateur)
+
+## Etape 6 : firefox fix pour le multitouch
+Changer un paramètre dans le fichier de configuration pour avoir la config "tactile" ( à paramétrer manuellement même si on a un écran tactile)
+
+open about:config in firefox to set dom.w3c_touch_events.enabled=1 (default is 2).
+
+edit /etc/security/pam_env.conf and add MOZ_USE_XINPUT2 DEFAULT=1
+
+reboot and restart firefox
