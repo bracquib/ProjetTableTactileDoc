@@ -160,4 +160,26 @@ Benjamin Bracquier :
 -lien de la page d'acceuil vers le site du calendrier
 -tests d'applications
 
+# 21/03/2023
+Noah BOMPARD :
+- tentative de réparation (encore) du multitouch (fonctionne uniquement via l'app de test du driver)
+- déboguage de la tablette 
+- dézoom de 500% => apparition de la météo + les news
+- abandon vulkan
+- phaser en vue de la visionneuse photo
+
+
+# 27/03/2023
+
+Noah BOMPARD :
+-Réussi a réparer le tactile sur firefox (youpi on slide)
+- prototype de la visionneuse d'image photo réussi
+- film de la tablette + montage vidéo
+
+
+# 28/03/2023 
+Noah BOMPARD :
+- derniers tests avec vincent 
+- phaser ajout du bouton reset
+- montage de la vidéo
 
