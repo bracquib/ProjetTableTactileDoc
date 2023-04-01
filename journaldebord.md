@@ -168,6 +168,9 @@ Noah BOMPARD :
 - abandon vulkan
 - phaser en vue de la visionneuse photo
 
+Benjamin Bracquier:
+-tests des applications 
+- test du mode kiosk avec les applications locales
 
 # 27/03/2023
 
@@ -176,10 +179,15 @@ Noah BOMPARD :
 - prototype de la visionneuse d'image photo réussi
 - film de la tablette + montage vidéo
 
+Benjamin Bracquier :
+-importation de la visionneuse d'image photo dans la home page
 
 # 28/03/2023 
 Noah BOMPARD :
 - derniers tests avec vincent 
 - phaser ajout du bouton reset
 - montage de la vidéo
+
+Benjamin Bracquier:
+-commencement du rapport final
 
