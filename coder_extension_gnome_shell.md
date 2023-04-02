@@ -62,3 +62,13 @@ Util.spawnCommandLine("bash /home/vincentdcr/rotateScript.sh")
 }
 ```
 On exécute donc un script bash qui va se servir de **xrandr** (un outil en ligne de commande qui utilise une extension du système de fenêtrage Xorg pour modifier les paramètres d'affichage d'un écran). Notamment, utiliser la commande suivante tournera l'écran vers la gauche : `xrandr -o left`
+
+Dans notre cas, on aura aussi besoin de retourner au même moment l'interprétation que fait le digitizer de nos inputs (sinon, les boutons sont "physiquement" toujours au même endroit même lorsque la table a été tournée). Pour cela il faut exécuter cette ligne : `xinput set-prop <peripherique_qui_gere_le_tactile> --type=float "Coordinate Transformation Matrix" $coords` ou la variable coords correspond à une matrice de transformation que voici : 
+
+| Orientation  | Matrice (3x3 en ligne) | 
+| ------------ | ---------------------- |
+| Gauche       | "0 -1 1 1 0 0 0 0 1"   | 
+| Inversé      | "-1 0 1 0 -1 1 0 0 1"  | 
+| Droite       | "0 1 0 -1 0 1 0 0 1"   | 
+| Normal       | "0 0 0 0 0 0 0 0 0"    | 
+

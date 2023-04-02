@@ -1,5 +1,44 @@
 # Projet table tactile : Journal de bord
 
+```mermaid
+gantt 
+axisFormat %d/%m
+dateFormat DD/MM/YY
+todayMarker off
+    title Gantt Tactile Table Project
+
+    section Project
+    Setup      :a1, 16/01/23, 7d
+    Documentation :a4, 29/01/23, 64d
+    Open day demo prep    :a2, 20/02/23 , 6d
+    Mi-project presentation prep :a3, 20/02/23, 8d
+    Project presentation prep, report & video :a5, 27/03/23, 6d
+    
+    section Hardware
+    Inventory     :a6, after a1, 6d
+    Rotation script v1    :a7, after a1, 6d
+    Update tables     :a8, after a1, 20d
+    Kisok at startup script    :a9, 29/01/23, 14d
+    Table calibration    : a10, 20/02/23, 6d
+    Multitouch drivers and apache : a11, 20/02/23, 6d
+    Rotation script v2    :a12, 27/02/23, 6d
+    Launch app from browser :a13, 06/03/23, 20d
+    Bug Fixes    :a14, 20/03/23, 8d
+    
+    
+    section Software
+    Research techno     :a15, after a1, 7d
+    Home page    :a16, 29/01/23, 14d
+    ADE Calendar integration :a22, 29/01/23, 28d
+    Porting games    :a17, 06/02/23, 14d
+    Bug hunting    :a18, 27/02/23, 17d
+    3d game prototype :a19, 06/03/23, 14d
+    Ubuntu store app retrieval    :a23, 06/03/23, 14d
+    3D object integration :a21, 13/03/23, 19d
+    Photo viewer PoC: a20, 20/03/23 , 8d
+
+```
+
 ## 16/01/2023
 * Organisation du groupe
 * Rédaction du cahier des charges
@@ -156,9 +195,15 @@ Noah BOMPARD :
 - début de tests sur phaser en vue de la visionneuse photo
 
 Benjamin Bracquier :
--importation de jeux et d'application de ubuntu sur le site
--lien de la page d'acceuil vers le site du calendrier
--tests d'applications
+- importation de jeux et d'application de ubuntu sur le site
+- lien de la page d'acceuil vers le site du calendrier
+- tests d'applications
+
+Vincent Ducros :
+- Création avec Benjamin des liens vers les applications locales et du store sur le site et la table
+- Problème : on ne peut pas modifier les fichiers .desktop des applications snap installés depuis le store d'ubuntu pour créer une URL custom => recherche d'une solution
+- Aide au déboguage Vulkan
+
 
 # 21/03/2023
 Noah BOMPARD :
@@ -168,18 +213,46 @@ Noah BOMPARD :
 - abandon vulkan
 - phaser en vue de la visionneuse photo
 
+Benjamin Bracquier :
+- tests des applications 
+- test du mode kiosk avec les applications locales
+
+Vincent Ducros :
+- Solution : On peut override les fichiers .desktop en leur donnant un autre nom et en les stockant dans le dossier ./local/share/applications
+- Recherche d'une solution au problème qui nous empêche de faire défiler une page sur Firefox sans utiliser la barre
 
 # 27/03/2023
 
 Noah BOMPARD :
--Réussi a réparer le tactile sur firefox (youpi on slide)
+- Réussi a réparer le tactile sur firefox (youpi on slide)
 - prototype de la visionneuse d'image photo réussi
 - film de la tablette + montage vidéo
 
+Benjamin Bracquier :
+- importation de la visionneuse d'image photo dans la home page
+
+Vincent Ducros :
+- Modification du fichier de configuration de Firefox sur la table pour régler le problème de slide
+- Recherche d'une solution pour ne pas avoir besoin d'un clavier physique lors du démarrage
+- Dans cette optique, tests de différents greeter (écran de login) pour notre gestionnaire d'affichage afin d'en trouver un qui supporte le clavier visuel par défaut.
+- Pas de succès, donc après délibération, remise en place du mécanisme d'autologin
 
 # 28/03/2023 
 Noah BOMPARD :
 - derniers tests avec vincent 
 - phaser ajout du bouton reset
 - montage de la vidéo
+
+Benjamin Bracquier :
+- commencement du rapport final
+
+Vincent Ducros :
+- Mise en place des derniers liens custom pour les applications présentes sur la table et configuration pour lancer un container docker au démarrage pour la partie de Fikret
+- Tests avec Noah et tournage pour la vidéo de présentation
+- Diagramme de Gantt
+- Documentation configuration réparation slide sur Firefox et mise à jour de celle sur les URL custom
+
+
+
+
 
