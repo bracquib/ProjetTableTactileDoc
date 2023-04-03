@@ -1,4 +1,4 @@
-# Tactile table project
+<<# Tactile table project
 
 Members : Bompard Noah, Bracquier Benjamin, Ducros Vincent, Kürklü Fikret
 Tutors : Donsez Didier, Palix Nicolas
@@ -15,11 +15,11 @@ The objective of this project is to put on the touch table a certain number of g
 - [Making a gnome shell extension script](./DOCUMENTATION_GNOME_EXTENSION_EN.pdf)
 - [Calibrating your touch table](./DOCUMENTATION_CALIBRATE_SCREEN_EN.pdf)
 - [Setup the kiosk mode (at launch time)](./DOCUMENTATION_KIOSK_EN.pdf)
-- [Create a custom URI to launch any app from a browser]()
+- [Create a custom URI to launch any app from a browser](./custom_URI_scheme_en.pdf)
 - [Install lightdm and change the login greeter](./DOCUMENTATION_LIGHT_DM&GREETER_EN.pdf)
 
 ## Report and presentations
 
 - [Mi-Project presentation](./mi_project_presentation.pdf)
-- [Final presentation]()
-- [Final report]()
+- [Final presentation](./Presentation projet table tactile.pptx)
+- [Final report](./Rapport table tactile.pdf)
