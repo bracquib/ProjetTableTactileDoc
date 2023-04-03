@@ -172,6 +172,9 @@ Noah BOMPARD :
 - développement mini prototype 3d éxecutable a lancer sur le site web 
 - recherche et documentation sur les méthodes d'intégrations d'objets 3d en web en fonciton de leur format.
 
+Fikret KÜRKLÜ:
+- recherche de solution pour récupérer les informations de menu depuis le site du crous
+
 # 13/03/2023 
 Noah BOMPARD :
  - exportation de l'exécutable => marche sur windows mais pas en version linux (pb de méméoire vulcan)
@@ -181,10 +184,12 @@ Noah BOMPARD :
 Vincent DUCROS :
 - aide a déboguage vulkan + exportation windows-> linux
 
-
 Benjamin Bracquier :
 - Recherche de jeux depuis ubuntu software 
 - recherche pour mettre des executables sur le page web
+
+Fikret KÜRKLÜ :
+- Lecture de la documentation de Beautiful Soup pour ça mise en place
 
 # 20/03/2023
 Noah BOMPARD :
@@ -198,6 +203,10 @@ Benjamin Bracquier :
 - importation de jeux et d'application de ubuntu sur le site
 - lien de la page d'acceuil vers le site du calendrier
 - tests d'applications
+
+Fikret KÜRKLÜ :
+- Test réaliser avec BeautifulSoup en python pour vérifier son bon fonctionnement
+- Recherche d'un moyen pour mettre à jour correctement le menu chaque jour et le rendre acccessible sur le front-end
 
 Vincent Ducros :
 - Création avec Benjamin des liens vers les applications locales et du store sur le site et la table
@@ -217,6 +226,9 @@ Benjamin Bracquier :
 - tests des applications 
 - test du mode kiosk avec les applications locales
 
+Fikret KÜRKLÜ :
+- objectif: créer une api pour faire communiquer le front-end et le back-end, recherche de solution simple et efficace
+
 Vincent Ducros :
 - Solution : On peut override les fichiers .desktop en leur donnant un autre nom et en les stockant dans le dossier ./local/share/applications
 - Recherche d'une solution au problème qui nous empêche de faire défiler une page sur Firefox sans utiliser la barre
@@ -230,6 +242,9 @@ Noah BOMPARD :
 
 Benjamin Bracquier :
 - importation de la visionneuse d'image photo dans la home page
+
+Fikret KÜRKLÜ :
+- lecture de la documentation flask
 
 Vincent Ducros :
 - Modification du fichier de configuration de Firefox sur la table pour régler le problème de slide
@@ -245,6 +260,9 @@ Noah BOMPARD :
 
 Benjamin Bracquier :
 - commencement du rapport final
+
+Fikret KÜRKLÜ :
+- mise en place d'une api flask en python (facile à mettre en place, et la technologies utilisés pour le scrapping était le python également)
 
 Vincent Ducros :
 - Mise en place des derniers liens custom pour les applications présentes sur la table et configuration pour lancer un container docker au démarrage pour la partie de Fikret
